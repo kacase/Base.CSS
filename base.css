@@ -26,7 +26,7 @@ article, aside, details, figcaption, figure, footer, header, hgroup, menu, nav, 
 .hidden { text-indent: -999em; }
 	.block.hidden { position: absolute; left: -999em; top: -999em; }
 	
-.radius { -moz-border-radius: 5px; -webkit-border-radius: 5px; border-radius: 5px; -khtml-border-radius: 5px; }
+.radius { -moz-border-radius: 5px; -webkit-border-radius: 5px; border-radius: 5px; -khtml-border-radius: 5px; -moz-background-clip: padding; -webkit-background-clip: padding-box; background-clip: padding-box; }
 
 .clear { zoom: 1; overflow: auto; }
 	.clear:before, .clear:after { content: ''; display: table; }
@@ -40,8 +40,8 @@ article, aside, details, figcaption, figure, footer, header, hgroup, menu, nav, 
 	.align.text { text-align: center; }
 	.align.vertical { vertical-align: center; position: absolute; left: 50%; top: 50%; }
 	
-::selection { background: rgba(0,0,0,0); color: #7f1017; }
-::-webkit-selection { background: rgba(0,0,0,0); color: #7f1017; }
-::-moz-selection { background: rgba(0,0,0,0); color: #7f1017; }
+::selection { background: rgba(0,0,0,0); color: #4a8aa6; }
+::-webkit-selection { background: rgba(0,0,0,0); color: #4a8aa6; }
+::-moz-selection { background: rgba(0,0,0,0); color: #4a8aa6; }
 
 .debug *[href='#'], .debug *[src=''], .debug *[alt=''], .debug *:not([title]), .debug *:not([src]), .debug *:not([href]), .debug *:not([alt]), .debug *[title=''], .debug *[style] { outline: 1px dotted #f0f; }
